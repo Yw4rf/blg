@@ -17,6 +17,7 @@ date: 2024-09-16
 description: "Technical writeup demonstrating the exploitation of the vsftpd 2.3.4 backdoor (CVE-2011-2523) vulnerability on a DockerLabs environment. Methodology covers Nmap service detection, exploit identification via Searchsploit, remote command execution via the FTP service, and achieving immediate root access."
 updated: 2025-11-25
 abbrlink: dockerlabs/firsthacking
+draft: true
 ---
 
 ## Introducción

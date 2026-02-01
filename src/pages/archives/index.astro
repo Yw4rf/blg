@@ -6,7 +6,14 @@ import { config_site } from '../../utils/config-adapter';
 
 // 获取文章集合
 const allPosts = await getCollection('posts');
-const processedPosts = await Promise.all(allPosts.map(post => processFrontmatter(post)));
+
+// 🚫 excluir drafts
+const publishedPosts = allPosts.filter(post => !post.data.draft);
+
+// 处理 frontmatter
+const processedPosts = await Promise.all(
+  publishedPosts.map(post => processFrontmatter(post))
+);
 
 // 按日期排序
 const sortedPosts = processedPosts.sort((a, b) => {

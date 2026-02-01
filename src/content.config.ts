@@ -21,6 +21,7 @@ const posts = defineCollection({
     abbrlink: z.union([z.string(), z.number()]).optional(),
     // 是否不被搜索引擎索引
     noindex: z.boolean().optional().default(false),
+    draft: z.oboolean().optional(),
   }),
 });
 
