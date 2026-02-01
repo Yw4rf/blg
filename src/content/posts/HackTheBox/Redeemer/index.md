@@ -15,7 +15,8 @@ categories:
 date: 2024-09-05
 description: "Technical writeup detailing the compromise of the Redeemer machine. The methodology focuses on Nmap scanning to identify the exposed Redis service on port 6379, exploiting the lack of required authentication to connect directly using 'redis-cli', enumerating the key-value store with INFO and KEYS *, and retrieving the flag."
 updated: 2025-11-25
-abbrlink: htb/redeemer
+abbrlink: hackthebox/redeemer
+draft: true
 ---
 
 ---

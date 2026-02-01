@@ -14,7 +14,8 @@ categories:
 date: 2024-09-04
 description: "Technical writeup detailing the compromise of the Fawn machine. The methodology focuses on Nmap scanning to identify the exposed FTP service (vsftpd 3.0.3) on port 21, exploiting the 'Anonymous FTP Login Allowed' setting to gain unauthenticated access, and retrieving the flag via standard FTP file transfer protocols."
 updated: 2025-11-25
-abbrlink: htb/fawn
+abbrlink: hackthebox/fawn
+draft: true
 ---
 
 ![Fawn machine complete yw4rf](0-Fawn.png)
