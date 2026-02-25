@@ -13,6 +13,7 @@ date: 2025-03-08
 description: "Content is currently withheld as per HackTheBox policy, since Chemistry is an active machine. This writeup details the full exploitation path from initial access to root, likely involving chemical-themed web application vulnerabilities, service enumeration, and local privilege escalation on a Linux target."
 updated: 2025-11-25
 abbrlink: htb/dog
+draft: true
 ---
 
 ![Alert yw4rf](dog-hackthebox.png)

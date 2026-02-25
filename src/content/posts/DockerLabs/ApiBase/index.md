@@ -17,6 +17,7 @@ date: 2025-03-11
 description: "Technical writeup detailing the compromise of a DockerLabs API-based system. Methodology includes Nmap scanning, API endpoint enumeration (GET/POST methods), credential brute-forcing via Caido, file transfer (SCP), and PCAP network analysis using Wireshark to extract critical credentials for root access."
 updated: 2025-11-25
 abbrlink: dockerlabs/dockerlabs/apibase
+draft: true
 ---
 
 ## Introduction

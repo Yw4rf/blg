@@ -20,6 +20,7 @@ date: 2024-11-27
 description: "Technical writeup detailing the compromise of the Alert Linux machine. Initial access is gained by chaining a Stored XSS vulnerability in the Markdown viewer to a Local File Inclusion (LFI) vulnerability in an internal /messages endpoint. LFI is used to exfiltrate an Apache MD5 hash from the .htpasswd file, which is then cracked via Hashcat to obtain SSH credentials for the 'albert' user. Privilege escalation is achieved by identifying a high-privileged PHP process running as root in a directory with group write permissions (management), which the 'albert' user belongs to. The configuration.php file is modified to set the SUID bit on /bin/bash, granting a root shell."
 updated: 2025-11-25
 abbrlink: htb/alert
+draft: true
 ---
 
 ![Yw4rf Alert](alert-hackthebox.png)

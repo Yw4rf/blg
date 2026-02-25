@@ -19,6 +19,7 @@ date: 2024-11-21
 description: "Technical writeup detailing the compromise of the Three machine. The methodology involves identifying an exposed subdomain (s3.thetoppers.htb) pointing to an AWS S3 bucket. Exploitation is achieved by leveraging a misconfigured access policy via the AWS CLI to perform an arbitrary file upload of a PHP webshell. Remote Code Execution (RCE) is then established using the webshell, leading to full system access as the www-data user."
 updated: 2025-11-25
 abbrlink: htb/three
+draft: true
 ---
 
 ![HackTheBox Three](three-hackthebox.png)

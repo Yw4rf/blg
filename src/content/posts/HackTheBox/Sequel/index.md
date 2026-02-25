@@ -17,6 +17,7 @@ date: 2024-11-19
 description: "Technical writeup detailing the compromise of the Sequel machine. The methodology focuses on Nmap scanning to identify the exposed MariaDB service (version 10.3) on port 3306. The system is exploited due to a critical Identification and Authentication Failure (OWASP A07:2021) allowing unauthenticated root login. The process concludes with database enumeration (SHOW DATABASES, USE htb, SELECT * FROM config) to retrieve the flag."
 updated: 2025-11-25
 abbrlink: htb/sequel
+draft: true
 ---
 
 ![Sequel](sequel-hackthebox.png)

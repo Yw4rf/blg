@@ -17,6 +17,7 @@ date: 2024-10-01
 description: "Technical writeup detailing the compromise of the WalkingCMS challenge. Initial access involves enumerating a WordPress installation via Gobuster, credential cracking using WPScan, and achieving a reverse shell by modifying the theme's index.php file. Final root access is achieved by exploiting a vulnerable SUID binary, '/usr/bin/env', using standard Linux privilege escalation techniques."
 updated: 2025-11-25
 abbrlink: dockerlabs/walkingcms
+draft: true
 ---
 
 ## Introducción

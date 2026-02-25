@@ -18,6 +18,7 @@ date: 2024-11-20
 description: "Technical writeup detailing the compromise of the Crocodile machine. Initial access is achieved by exploiting the Anonymous FTP login vulnerability on the vsFTPd 3.0.3 service (21/tcp) to disclose files containing credentials (allowed.userlist and allowed.userlist.passwd). Web enumeration via Gobuster reveals a hidden '/login.php' endpoint. The disclosed 'admin' credentials are used to access the web panel and retrieve the flag, completing the box."
 updated: 2025-11-25
 abbrlink: htb/crocodile
+draft: true
 ---
 
 ![Crocodile yw4rf](crocodile-hackthebox.png)

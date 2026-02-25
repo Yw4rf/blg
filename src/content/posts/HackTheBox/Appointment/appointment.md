@@ -18,6 +18,7 @@ date: 2024-11-18
 description: "Technical writeup detailing the compromise of the Appointment machine. The primary vulnerability is an Authentication Bypass via SQL Injection (SQLi) affecting the web application's login form. By injecting the payload 'admin'#' into the username field, the SQL query is manipulated to bypass the password check, allowing unauthenticated access as the admin user to retrieve the flag."
 updated: 2025-11-25
 abbrlink: htb/appointment
+draft: true
 ---
 
 ![Appointment yw4rf](hackthebox-appointment.png)

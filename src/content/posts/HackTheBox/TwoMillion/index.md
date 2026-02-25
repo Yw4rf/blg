@@ -20,6 +20,7 @@ date: 2024-10-20
 description: "Technical writeup detailing the compromise of the TwoMillion machine. Initial access involves decoding ROT13-encrypted data from JavaScript to find an API endpoint, followed by manipulating API parameters to gain administrator privileges via Insecure Direct Object Reference (IDOR), leading to a reverse shell injection. Local Privilege Escalation is achieved by disclosing plaintext credentials from a '.env' file for SSH access, and finally, exploiting the unpatched Linux Kernel vulnerability, CVE-2023-0386 (OverlayFS/FUSE), to gain root privileges."
 updated: 2025-11-25
 abbrlink: htb/twomillion
+draft: true
 ---
 
 ![TM HackTheBox](tm-hackthebox.png)

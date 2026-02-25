@@ -16,6 +16,7 @@ date: 2024-10-11
 description: "Technical writeup detailing the compromise of the TickTackRoot machine. The path includes initial enumeration of open services (21/FTP, 22/SSH, 80/HTTP). Access is gained by leveraging Anonymous FTP login to find potential usernames, followed by a successful SSH brute-force attack using Hydra. Privilege escalation is achieved by exploiting the SUID binary 'timeout_suid' to gain a root shell, demonstrating a classic Linux privilege escalation technique."
 updated: 2025-11-25
 abbrlink: thehackerslabs/ticktackroot
+draft: true
 ---
 
 ![Yw4rf TheHackersLabs](thehackerslabs-ticktackroot.png)

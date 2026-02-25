@@ -17,6 +17,7 @@ date: 2024-12-05
 description: "Technical writeup detailing the compromise of TheStickerShop. The primary vulnerability exploited is a Stored Cross-Site Scripting (XSS) vulnerability found in the 'Feedback' form on the Python/Werkzeug web server (8080/tcp). The attack leverages a custom JavaScript payload to bypass a 401 Unauthorized error, fetch the restricted 'flag.txt' file, encode its content in Base64, and exfiltrate the data to an attacker-controlled HTTP server via an Image object request."
 updated: 2025-11-25
 abbrlink: tryhackme/thestickershop
+draft: true
 --- 
 
 ![Lab TheStickerShop Yw4rf](thestickershop-tryhackme.png)

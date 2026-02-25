@@ -16,12 +16,12 @@
   },
   "src/content/posts/DockerLabs/ApiBase/index.md": {
     "created": "2025-11-25T13:55:37.742-03:00",
-    "modified": "2025-11-29T16:07:42.812-03:00",
+    "modified": "2026-02-25T17:05:45.818-03:00",
     "abbrlink": "a67e7374"
   },
   "src/content/posts/DockerLabs/BreakMySSH/index.md": {
     "created": "2025-11-25T13:55:37.742-03:00",
-    "modified": "2025-11-29T16:07:42.856-03:00",
+    "modified": "2026-02-25T17:11:12.097-03:00",
     "abbrlink": "94f7d04e"
   },
   "src/content/posts/DockerLabs/FirstHacking/index.md": {
@@ -31,32 +31,32 @@
   },
   "src/content/posts/DockerLabs/Injection/index.md": {
     "created": "2025-11-25T13:55:38.214-03:00",
-    "modified": "2026-01-31T22:44:37.380-03:00",
+    "modified": "2026-02-25T17:10:46.452-03:00",
     "abbrlink": "cfbd6b45"
   },
   "src/content/posts/DockerLabs/Internship/index.md": {
     "created": "2025-11-25T13:55:38.214-03:00",
-    "modified": "2025-11-29T16:07:42.928-03:00",
+    "modified": "2026-02-25T17:10:20.993-03:00",
     "abbrlink": "2493adb0"
   },
   "src/content/posts/DockerLabs/StellarJWT/index.md": {
     "created": "2025-11-25T13:55:39.414-03:00",
-    "modified": "2025-11-29T16:07:42.992-03:00",
+    "modified": "2026-02-25T17:14:33.666-03:00",
     "abbrlink": "325d07b4"
   },
   "src/content/posts/DockerLabs/Trust/index.md": {
     "created": "2025-11-25T13:55:41.982-03:00",
-    "modified": "2026-01-31T22:56:44.278-03:00",
+    "modified": "2026-02-25T17:10:57.381-03:00",
     "abbrlink": "092ce6e0"
   },
   "src/content/posts/DockerLabs/Verdejo/index.md": {
     "created": "2025-11-25T13:55:41.986-03:00",
-    "modified": "2025-11-29T16:07:43.400-03:00",
+    "modified": "2026-02-25T17:12:43.641-03:00",
     "abbrlink": "c65491d9"
   },
   "src/content/posts/DockerLabs/WalkingCMS/index.md": {
     "created": "2025-11-25T13:55:43.414-03:00",
-    "modified": "2026-01-31T22:47:11.816-03:00",
+    "modified": "2026-02-25T17:11:53.557-03:00",
     "abbrlink": "c4145631"
   },
   "src/content/posts/HackTheBox/Dancing/index.md": {
@@ -81,17 +81,17 @@
   },
   "src/content/posts/TheHackersLabs/TickTackRoot/index.md": {
     "created": "2025-11-25T13:55:57.535-03:00",
-    "modified": "2025-11-29T16:07:49.316-03:00",
+    "modified": "2026-02-25T17:01:52.300-03:00",
     "abbrlink": "2f52956d"
   },
   "src/content/posts/TryHackMe/Source/index.md": {
     "created": "2025-11-25T13:55:58.107-03:00",
-    "modified": "2025-11-29T16:07:49.572-03:00",
+    "modified": "2026-02-25T16:55:23.488-03:00",
     "abbrlink": "a87cdf09"
   },
   "src/content/posts/TryHackMe/TheStickerShop/index.md": {
     "created": "2025-11-25T13:55:58.615-03:00",
-    "modified": "2025-11-29T16:07:49.612-03:00",
+    "modified": "2026-02-25T17:01:00.286-03:00",
     "abbrlink": "5df0f720"
   },
   "src/content/posts/TryHackMe/Whiterose/index.md": {
@@ -106,12 +106,12 @@
   },
   "src/content/posts/HackTheBox/Alert/alert.md": {
     "created": "2025-11-25T16:10:30.168-03:00",
-    "modified": "2025-11-29T16:07:44.400-03:00",
+    "modified": "2026-02-25T16:53:35.425-03:00",
     "abbrlink": "0bd37e22"
   },
   "src/content/posts/HackTheBox/Appointment/appointment.md": {
     "created": "2025-11-25T16:10:30.356-03:00",
-    "modified": "2025-11-29T16:07:44.524-03:00",
+    "modified": "2026-02-25T16:37:41.605-03:00",
     "abbrlink": "288d15d5"
   },
   "src/content/posts/HackTheBox/Chemistry/chemistry.md": {
@@ -121,12 +121,12 @@
   },
   "src/content/posts/HackTheBox/Crocodile/crocodile.md": {
     "created": "2025-11-25T16:10:31.320-03:00",
-    "modified": "2025-11-25T16:22:39.459-03:00",
+    "modified": "2026-02-25T16:40:44.434-03:00",
     "abbrlink": "7e3c91ee"
   },
   "src/content/posts/HackTheBox/Dog/dog.md": {
     "created": "2025-11-25T16:10:31.520-03:00",
-    "modified": "2025-11-25T16:19:24.414-03:00",
+    "modified": "2026-02-25T17:39:54.387-03:00",
     "abbrlink": "f2ca8930"
   },
   "src/content/posts/HackTheBox/Archetype/archetype.md": {
@@ -136,7 +136,7 @@
   },
   "src/content/posts/HackTheBox/EscapeTwo/escapetwo.md": {
     "created": "2025-11-25T16:10:31.916-03:00",
-    "modified": "2025-11-25T16:16:20.145-03:00",
+    "modified": "2026-02-25T17:40:48.533-03:00",
     "abbrlink": "7b0f174c"
   },
   "src/content/posts/HackTheBox/Instant/instant.md": {
@@ -176,7 +176,7 @@
   },
   "src/content/posts/HackTheBox/Oopsie/index.md": {
     "created": "2025-11-29T16:07:46.628-03:00",
-    "modified": "2025-11-29T16:07:46.628-03:00",
+    "modified": "2026-02-25T16:46:54.749-03:00",
     "abbrlink": "3c0cdebe"
   },
   "src/content/posts/HackTheBox/Responder/index.md": {
@@ -191,32 +191,32 @@
   },
   "src/content/posts/HackTheBox/Sequel/index.md": {
     "created": "2025-11-29T16:07:47.340-03:00",
-    "modified": "2025-11-29T16:07:47.340-03:00",
+    "modified": "2026-02-25T16:39:47.614-03:00",
     "abbrlink": "418d7aef"
   },
   "src/content/posts/HackTheBox/Three/index.md": {
     "created": "2025-11-29T16:07:47.576-03:00",
-    "modified": "2025-11-29T16:07:47.576-03:00",
+    "modified": "2026-02-25T16:42:32.429-03:00",
     "abbrlink": "c1bf69f5"
   },
   "src/content/posts/HackTheBox/Titanic/index.md": {
     "created": "2025-11-29T16:07:47.788-03:00",
-    "modified": "2025-11-29T16:07:47.788-03:00",
+    "modified": "2026-02-25T17:41:06.421-03:00",
     "abbrlink": "43150843"
   },
   "src/content/posts/HackTheBox/TwoMillion/index.md": {
     "created": "2025-11-29T16:07:47.900-03:00",
-    "modified": "2025-11-29T16:07:47.900-03:00",
+    "modified": "2026-02-25T17:29:25.222-03:00",
     "abbrlink": "6457dcc9"
   },
   "src/content/posts/HackTheBox/Underpass/index.md": {
     "created": "2025-11-29T16:07:48.416-03:00",
-    "modified": "2025-11-29T16:07:48.416-03:00",
+    "modified": "2026-02-25T17:45:31.549-03:00",
     "abbrlink": "f5d50d5d"
   },
   "src/content/posts/HackTheBox/Vaccine/index.md": {
     "created": "2025-11-29T16:07:48.564-03:00",
-    "modified": "2025-11-29T16:07:48.564-03:00",
+    "modified": "2026-02-25T17:36:30.291-03:00",
     "abbrlink": "6b3ab98b"
   },
   "src/content/posts/HackTheBox/UFO-1/index.md": {

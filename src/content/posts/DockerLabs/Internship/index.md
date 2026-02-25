@@ -18,6 +18,7 @@ date: 2025-03-03
 description: "Technical writeup covering multi-stage compromise of the 'Internship' challenge. The methodology progresses from SQL Injection authentication bypass and user data extraction to a targeted SSH brute-force attack (Hydra). Privilege escalation involves script modification for horizontal movement, culminating in steganography analysis (Steghide) for final root access."
 updated: 2025-11-25
 abbrlink: dockerlabs/internship
+draft: true
 ---
 
 ## Introduction

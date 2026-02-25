@@ -18,6 +18,7 @@ date: 2024-10-15
 description: "Technical writeup detailing the immediate compromise of the Source machine by exploiting the Webmin service running on port 10000. The vulnerability leveraged is the unauthenticated Remote Code Execution (RCE) backdoor in Webmin versions 1.882 < 1.921 (CVE-2019-15107). Exploitation is achieved by running a public exploit to gain direct root access and establishing a reverse shell for full system control."
 updated: 2025-11-25
 abbrlink: tryhackme/source
+draft: true
 ---
 
 ![Source yw4rf](source-tryhackme.png)

@@ -12,6 +12,7 @@ date: 2025-02-19
 description: "Content is currently withheld as per HackTheBox policy, since Titanic is an active machine. This writeup details the full exploitation path from initial access to root, likely involving web vulnerabilities, service enumeration, and local privilege escalation."
 updated: 2025-11-25
 abbrlink: htb/titanic
+draft: true
 ---
 
 ![Alert yw4rf](titanic-hackthebox.png)

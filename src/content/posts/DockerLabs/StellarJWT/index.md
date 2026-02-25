@@ -17,6 +17,7 @@ date: 2024-10-31
 description: "Technical writeup detailing the compromise of the 'StellarJWT' challenge. The methodology involves identifying and decoding an exposed JSON Web Token (JWT) for user enumeration, followed by a dictionary attack using Hydra for SSH access. Privilege escalation is achieved through a chained exploitation of NOPASSWD SUID binaries: using 'socat' for horizontal movement and 'chown' for '/etc/passwd' modification to gain final root access."
 updated: 2025-11-25
 abbrlink: dockerlabs/stellarjwt
+draft: true
 ---
 
 ## Introduction
