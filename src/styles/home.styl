@@ -55,13 +55,13 @@ html, body {
 }
 
 .Hometitle {
-  font-size: 3.0rem;
   display: flex;
   justify-content: center;
   font-family: "Pixelify Sans", sans-serif;
 }
 
 .Hometitle h1 { 
+  font-size: 4rem
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.95), rgba(78, 186, 163, 0.9));
   -webkit-background-clip: text
   -webkit-text-fill-color: transparent
@@ -79,9 +79,12 @@ html, body {
   -webkit-background-clip: text
   -webkit-text-fill-color: transparent
   background-clip: text
-  font-size: 1.5rem;
   font-family: "Pixelify Sans", sans-serif;
-  margin-top: -10px;
+  margin-top: -2px;
+}
+
+.Homesubtitle h2 { 
+  font-size: 2rem;
 }
 
 // Wrapper para centrar el bloque
@@ -158,41 +161,6 @@ html, body {
     }
   }
 
-.pokeBlue
-  position absolute
-  top -25px
-  right 0px
-  width 90px
-  height auto
-  opacity 0.9
-  z-index 10
-  pointer-events none
-  filter drop-shadow(0 0 6px rgba(46, 46, 46, 0.3))
-
-
-.pokeRed
-  position absolute
-  top -20px
-  right -25px
-  width 100px
-  height auto
-  opacity 0.9
-  z-index 10
-  pointer-events none
-  filter drop-shadow(0 0 6px rgba(46, 46, 46, 0.3))
-  margin-left: 5px;
-
-.vimSkills
-  position absolute
-  top -25px
-  left -25px  
-  width 88px
-  height auto
-  opacity 0.9
-  z-index 10
-  pointer-events none
-  filter drop-shadow(0 0 6px rgba(46, 46, 46, 0.3))
-
 // SKILLS SECTION
 
 .categorySkills {
@@ -260,12 +228,12 @@ html, body {
 
 .blockSpan { 
   font-family: 'Pixelify Sans', sans-serif; 
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: bold;
   color: #f0f0f0
     float: left;
     position: absolute
-    top: -5px
+    top: -10px
 }
 
 //BUTTON
@@ -342,23 +310,6 @@ html, body {
   margin-right 6px
   display inline-flex
 
-/* Estilos para los comandos */
-.code-inline
-  font-family monospace
-  font-size 1rem
-  background transparent
-  white-space normal
-  word-break break-all
-  display block
-  margin-bottom 6px
-
-/* Colores específicos */
-.code-linux
-  color #F4BC00
-
-.code-windows
-  color #00A4EF
-
 /* Enlaces */
 .contact-list a
   font-size 1rem
@@ -425,9 +376,6 @@ html, body {
   &:hover
     color #a9fff4 // Color más claro al hacer hover
     text-shadow 0 0 5px rgba(169, 255, 244, 0.5) // Un ligero brillo
-    
-    &:before
-      width 100% // El subrayado aparece
 
 // Si deseas mantener el estilo de subrayado punteado
 // Comenta la sección de :before y usa esto en su lugar:

@@ -14,7 +14,7 @@ export const site: SiteConfig = {
    */
   description: 'Cybersecurity Enthusiast focused on SOC, DFIR, Hands-on Penetration Testing, and active CTF Player.',
   url: 'https://yw4rf.netlify.app',
-  keywords: 'Stalux, 博客主题, 内容创作, Astro主题, 静态网站生成器, SEO优化, 自定义博客, 响应式设计, 评论系统, 前端开发, Astro',
+  keywords: 'Yw4rf, Cybersecurity, Tobias Gabriel F., Hacking, Ethical Hacking, Blue Team Defense, CyberDefenders, HacktheBox, Yw4rf',
   lang: 'en-US',
   locale: 'en-US',
   canonical: 'https://yw4rf.netlify.app',
@@ -75,7 +75,6 @@ export const site: SiteConfig = {
     { title: 'Telegram', url: 'https://t.me/Yw4rf', icon: 'telegram' },
     { title: 'Gmail', url: 'mailto:yw4rf@protonmail.com', icon: 'gmail' },
     { title: 'Github', url: 'https://github.com/Yw4rf', icon: 'github' },
-    { title: 'Twitter', url: 'https://x.com/Yw4rf', icon: 'x-twitter'},
   ],
 
   /**

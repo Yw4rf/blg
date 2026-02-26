@@ -1,6 +1,7 @@
 ---
 import Head from '../components/Head.astro';
 import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 import '../../src/styles/global.styl';
 import '../styles/layouts/CategoriesLayout.styl';
 import '../styles/pages/categories/index-content.styl';
@@ -62,5 +63,6 @@ const { title, description, author, url, categories, noIndex = false } = Astro.p
       
       <slot />
     </main>
+    <Footer />
   </body>
 </html>

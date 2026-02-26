@@ -1,14 +1,17 @@
 ---
 import { config_site } from '../utils/config-adapter'
+
+const currentYear = new Date().getFullYear();
 ---
 <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
 
 <footer class="site-footer">
-    <div class="footer-content">
-        <div class="footer-bottom-text">
-           <span class="copyrightFooter"> © 2025</span> <a href="https://github.com/xingwangzhe/stalux" target="_blank">Stalux</a> theme based.
-        </div>
-    </div>
+    <div class="footer-bottom-text">
+   <span class="copyrightFooter"><span class="copyright-simbol">©</span> {currentYear}</span> 
+   Keep calm and analyze the logs.
+   <br>
+   Powered by <a href="https://github.com/xingwangzhe/stalux" target="_blank">Stalux</a> theme.
+</div>
 </footer>
 
 <!-- Footer Style -->
@@ -21,14 +24,18 @@ import { config_site } from '../utils/config-adapter'
   text-align: center;
   margin-top: auto;
   font-size: 0.9rem;
-  color: rgba(78, 186, 163, 0.9);
-  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.18); 
   margin-top: 30px;
   font-family: 'Pixelify Sans';
 }
 
+.copyright-simbol {
+  font-family: 'sans';
+}
+
 .copyrightFooter {
-  font-family: sans;
+  font-family: 'Pixelify Sans';
 }
 
 .footer-content {
@@ -43,7 +50,7 @@ import { config_site } from '../utils/config-adapter'
 .footer-bottom-text {
   display: block;
   font-size: 14px;
-  color: #7ff8e8;
+  color: #f0f0f0;
   text-align: center;
 }
 

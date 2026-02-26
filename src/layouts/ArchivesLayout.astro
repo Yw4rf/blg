@@ -155,7 +155,6 @@ const sortedYears = Object.keys(archivesByYearMonth)
       {/* Allow passing additional main content if needed */}
       <slot name="main" />
     </main>
-
     <script>
       // 懒加载实现 (This script is identical to the original page's script)
       document.addEventListener('DOMContentLoaded', () => {
@@ -242,5 +241,6 @@ const sortedYears = Object.keys(archivesByYearMonth)
         });
       });
     </script>
+  <Footer />
   </body>
 </html>
