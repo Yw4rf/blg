@@ -4,20 +4,20 @@ export const site: SiteConfig = {
   /**
    *  TITLES NAMES SECTION
    */
-  title: 'S1nnf',
-  titleDefault: 'S1nnf',
-  siteName: 'S1nnf',
-  author: 'S1nnf',
+  title: 's4ibf',
+  titleDefault: 's4ibf',
+  siteName: 's4ibf',
+  author: 's4ibf',
   
   /**
    * SEO  
    */
   description: 'Cybersecurity Enthusiast focused on SOC, DFIR, Hands-on Penetration Testing, and active CTF Player.',
-  url: 'https://s1nnf.netlify.app',
-  keywords: 'S1nnf, Cybersecurity, Tobias Gabriel F., Hacking, Ethical Hacking, Blue Team Defense, CyberDefenders, HacktheBox, S1nnf',
+  url: 'https://s4ibf.netlify.app',
+  keywords: 's4ibf, Cybersecurity, Tobias Gabriel F., Hacking, Ethical Hacking, Blue Team Defense, CyberDefenders, HacktheBox, s4ibf',
   lang: 'en-US',
   locale: 'en-US',
-  canonical: 'https://s1nnf.netlify.app',
+  canonical: 'https://s4ibf.netlify.app',
 
   /**
    *  
@@ -28,8 +28,8 @@ export const site: SiteConfig = {
   /**
    * <head> 
    */
-  head: `<meta name="S1nnf" content="S1nnf">
-        <script>console.log("S1nnf")</script>`,
+  head: `<meta name="s4ibf" content="s4ibf">
+        <script>console.log("s4ibf")</script>`,
 
   /**
    * NAVBAR SECTION NAV
@@ -72,9 +72,9 @@ export const site: SiteConfig = {
    * SOCIAL LINKS SECTION CONTACT
    */
   medialinks: [
-    { title: 'Telegram', url: 'https://t.me/s1nnf', icon: 'telegram' },
+    { title: 'Telegram', url: 'https://t.me/s4ibf', icon: 'telegram' },
     { title: 'Gmail', url: 'mailto:yw4rf@protonmail.com', icon: 'gmail' },
-    { title: 'Github', url: 'https://github.com/s1nnf', icon: 'github' },
+    { title: 'Github', url: 'https://github.com/s4ibf', icon: 'github' },
   ],
 
   /**
